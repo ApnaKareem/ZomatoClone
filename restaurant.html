@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato | Add a restaurant</title>
+    <link rel="stylesheet" href="css/restaurant.css">
+    <link rel="shortcut icon" href="img/zomato.png" type="image/x-icon">
+</head>
+
+<body>
+
+<header>
+    <div>
+        <img src="img/logo.png" alt="logo">
+    </div>
+    <ul>
+        <li><a href="restaurant.html">Home</a></li>
+        <li><a href="relation.html">Investor relations</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Signup</a></li>
+    </ul>
+</header>
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="img/logo.png" alt="logo">
+        <h1>Partner with Zomato</h1>
+        <p>Reach more customers and grow your business</p>
+    </section>
+
+    <!-- FORM SECTION -->
+    <section class="form-section">
+        <h2>Register Your Restaurant</h2>
+
+        <form id="restaurantForm">
+
+            <div class="input-group">
+                <input type="text" placeholder="Restaurant Name" required>
+                <input type="text" placeholder="Owner Name" required>
+            </div>
+
+            <div class="input-group">
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" placeholder="City" required>
+                <input type="text" placeholder="Area / Location" required>
+            </div>
+
+            <textarea placeholder="Restaurant Address" required></textarea>
+
+            <div class="input-group">
+                <input type="text" placeholder="Cuisine Type (e.g. Indian, Chinese)" required>
+                <input type="number" placeholder="Average Cost for 2" required>
+            </div>
+
+            <label class="file-label">
+                Upload Restaurant Image
+                <input type="file">
+            </label>
+
+            <button type="submit">Submit Application</button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    Copyright &copy; 2026 | All rights reserved
+</footer>
+
+<script src="js/restaurant.js"></script>
+</body>
+</html>
